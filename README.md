@@ -1,4 +1,4 @@
-feature
+![Screenshot 2024-12-10 214724](https://github.com/user-attachments/assets/98da9b7d-bd8b-4246-b94a-287d595dc18f)feature
 1. Dynamic card display
 A set of "cards" will appear on the grid. And the script ensures that only one card is fully visible at a time. while other cards Some sections will be shown for reference. The way it works is as follows:
 
@@ -30,3 +30,4 @@ How did it happen?
 When you drag the mouse The card moves into view. Create a smooth and engaging browsing experience.
 The design focuses on displaying content grouped in order. This makes it ideal for portfolios, stories, or tutorials.
 This project combines simple design with smooth interactions. Create an intuitive interface for navigating grouped content.
+![Screenshot 2024-12-10 214724](https://github.com/user-attachments/assets/519983cc-460b-4485-9814-536f2418d92a)
