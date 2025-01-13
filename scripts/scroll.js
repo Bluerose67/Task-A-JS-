@@ -5,6 +5,7 @@ let threshold = 50; // Minimum distance to trigger a scroll
 let hasScrolled = false; // Flag to prevent multiple scrolls per drag
 let currentCardIndex = 0;
 
+// Function to display cards based on the current index
 function showCard(index) {
     cards.forEach((card, i) => {
         if (i === index) {
@@ -21,6 +22,7 @@ function showCard(index) {
     });
 }
 
+// Function to get the next card index based on the direction
 function getNextIndex(current, direction) {
     if (direction === 'up') {
         return (current + 1) % cards.length; // Loop back to the first card
@@ -30,6 +32,12 @@ function getNextIndex(current, direction) {
     return current;
 }
 
+// Display the first card when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    showCard(currentCardIndex);
+});
+
+// Add event listeners for click-and-drag behavior
 document.addEventListener('mousedown', (e) => {
     isDragging = true;
     startY = e.clientY;
